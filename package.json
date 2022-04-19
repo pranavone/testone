@@ -1,0 +1,32 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon App.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix estore && npm run build --prefix estore"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.6.6",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "mysql": "^2.18.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.14",
+    "price-finder": "^5.0.2",
+    "slugify": "^1.6.3",
+    "start": "^5.1.0",
+    "validator": "^13.7.0"
+  }
+}
